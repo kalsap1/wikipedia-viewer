@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Wikipedia Viewer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel = "stylesheet" href = "stylesheets/main.css">
+  <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+  <header>
+    <div class = "title">
+      <img id = "logo" src = "https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg" placeholder = "logo"/>
+      <span id = "page-title">Wikipedia Viewer !</span>
+    </div>
+  </header>
+  <section>
+    <div id = "search-function">
+        <div id = "get-random-article"><a href = "https://en.wikipedia.org/wiki/Special:Random" target = "_blank" id = "get-random-button">Get a Random Article</a></div>
+        <input type = "text" id = "search-item" placeholder = "Search for Wikipedia Articles..."/>
+
+        <button type = "submit" id = "get-article">Search</button>
+        <ul id = "search-lists"></ul>
+    </div>
+
+    <div id = "display-matches">
+      <ul id = "search-results"></ul>
+    </div>
+
+  </section>
+
+
+<script type = "text/javascript" src = "scripts/app.js"></script>
+</body>
+</html>
