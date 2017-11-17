@@ -1,1 +1,1 @@
-# wikipedia-viewer
+# This app lets you do instant search for Wikipedia articles. You could also read a random article by clicking on the 'Get a random article' button. This app is made using HTML, CSS, JavaScript, and jQuery(Ajax). Ajax method was used to get data thru jsonp to do cross domain requests.
